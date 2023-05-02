@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9a68989ff6.js" crossorigin="anonymous"></script>
+    <title>AudioPlayer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="media-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <img src="" class="song-img">
+
+            <h1 class="song-name">Go!</h1>
+            <p class="song-author">NEFFEX</p>
+
+            <audio src="audio/Go!-NEFFEX.mp3" class="song"></audio>
+
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+            
+            <div class="controls">
+                <div><i class="fa-solid fa-backward" id="prevBtn"></i></div>
+                <div><i class="fa-solid fa-play" id="playBtn"></i></div>
+                <div><i class="fa-solid fa-forward" id="nextBtn"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
