@@ -5,20 +5,74 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="https://kit.fontawesome.com/9a68989ff6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>AudioPlayer</title>
 </head>
 <body>
     <div class="container">
-        <div class="media-player">
+        <div class="main-page animated">
+            <h2 class="title">Your library</h2>
+            <div class="arrow-right"><i class="fa-solid fa-angle-right"></i></div>
+            <div class="songs-list">
+<!--                <div class="song-item">-->
+<!--                    <div class="song-item-wrapper">-->
+<!--                        <p class="songs-count">1. </p>-->
+<!--                        <img src="img/Go!-NEFFEX.jpg" class="song-image">-->
+<!--                        <div>-->
+<!--                            <p class="song-name">Go!</p>-->
+<!--                            <p class="song-author">NEFFEX</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <p class="song-duration">2:40</p>-->
+<!--                </div>-->
+<!--                <div class="song-item">-->
+<!--                    <div class="song-item-wrapper">-->
+<!--                        <p class="songs-count">2. </p>-->
+<!--                        <img src="img/Flowers-Miley%20Cyrus.jpg" class="song-image">-->
+<!--                        <div>-->
+<!--                            <p class="song-name">Flowers</p>-->
+<!--                            <p class="song-author">Miley Cyrus</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <p class="song-duration">3:20</p>-->
+<!--                </div>-->
+<!--                <div class="song-item">-->
+<!--                    <div class="song-item-wrapper">-->
+<!--                        <p class="songs-count">3. </p>-->
+<!--                        <img src="img/Old%20Town%20Road%20(Remix)-Lil%20Nas%20X%20&%20Billy%20Ray%20Cyrus%20feat.%20Young%20Thug%20&%20Mason%20Ramsey.jpg" class="song-image">-->
+<!--                        <div>-->
+<!--                            <p class="song-name">Old Town Road (Remix)</p>-->
+<!--                            <p class="song-author">Lil Nas X & Billy Ray Cyrus</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <p class="song-duration">2:51</p>-->
+<!--                </div>-->
+<!--                <div class="song-item">-->
+<!--                    <div class="song-item-wrapper">-->
+<!--                        <p class="songs-count">3. </p>-->
+<!--                        <img src="img/Believer-Imagine%20Dragons.jpg" class="song-image">-->
+<!--                        <div>-->
+<!--                            <p class="song-name">Believer</p>-->
+<!--                            <p class="song-author">Imagine Dragons</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <p class="song-duration">3:23</p>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="media-player animated">
             <nav>
                 <div class="circle">
                     <i class="fa-solid fa-angle-left"></i>
                 </div>
-                <div class="circle">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+<!--                <div class="circle">-->
+<!--                    <i class="fa-solid fa-bars"></i>-->
+<!--                </div>-->
             </nav>
 
             <img src="" class="song-img">
@@ -31,7 +85,7 @@
             <div class="progress-container">
                 <div class="progress"></div>
             </div>
-            
+
             <div class="controls">
                 <div><i class="fa-solid fa-backward" id="prevBtn"></i></div>
                 <div><i class="fa-solid fa-play" id="playBtn"></i></div>
